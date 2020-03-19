@@ -2,6 +2,8 @@
 
 the solution is in the src/solution/Main.java
 
+please run as java Main.java 123 123
+
 we assume that the input are two Strings: s1 and s2
 
 1.  s1 and s2 are not null or empty strings;
