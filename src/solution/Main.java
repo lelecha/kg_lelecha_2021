@@ -20,7 +20,7 @@ public class Main {
 		Map<Character, Character> map = new HashMap<>();
 		
 		for(int i = 0; i < s1.length(); i++) {
-			if(map.containsKey(s1.charAt(i))) {
+			if(map.containsKey(s1.charAt(i)) && map.get(s1.charAt(i)) != s2.charAt(i) ) {
 				System.out.println(false);
 				return;
 			}
