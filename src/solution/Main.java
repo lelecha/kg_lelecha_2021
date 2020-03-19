@@ -6,12 +6,10 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] arg) {
-		Scanner s = new Scanner(System.in);
-		String line = s.nextLine();
-		String[] in = line.split(" ");
-		String s1 = in[0];
-		String s2 = in[1];
-	
+
+		
+		String s1 = arg[0];
+		String s2 = arg[1];
 		
 		if(s1.length() != s2.length()) {
 			System.out.println(false);
