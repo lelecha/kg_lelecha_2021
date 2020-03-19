@@ -1,6 +1,6 @@
 # kg_lelecha_2021
 
-the solution is in the Main.java
+the solution is in the src/solution/Main.java
 
 we assume that the input are two Strings: s1 and s2
 
